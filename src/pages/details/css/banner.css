@@ -1,0 +1,95 @@
+.banner-container{
+    background-position:100%;
+    background-color:#051c2b;
+    background-repeat:no-repeat ;
+    color:#fff;
+    min-height: 550px;
+    position: relative;
+    margin-left: -4.4%;
+    margin-right: -4.4%;
+}
+
+.banner-payload-container{
+    padding-left:30%;
+    padding-right:30%;
+    min-height:450px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    margin-left: 4rem;
+    border-style: double;
+    border-color: #051c2b;
+    box-sizing: border-box;
+    border: #051c2b;
+    box-sizing: border-box;
+    background: linear-gradient(#051c2b, 90deg, transparent 900px);
+}
+
+.banner-description-title{
+     font-size: auto;
+     display: inline-block;
+     width: 168;
+     margin-bottom: 10;
+     color:black ;
+     border: #fff;
+     border-color: #fff;
+
+    
+}
+.banner-description-synopsis{
+    font-size: large;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    
+}
+.defaulPoster-style{
+    width: 168;
+    box-sizing: border-box;
+
+}
+.poster-container{
+    display: inline-block;
+    height: 50%;
+    position: relative ;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    width: 50%;
+}
+
+.button-container{
+    display: inline-block;
+    height: 10%;
+    position:relative;
+    margin-top: 4rem;
+    margin-left: -14rem;
+    
+    width: 30%;
+   
+}
+.poster-lazy-loaded{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.banner-button{
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    align-self: center;
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(240, 241, 235, 0.5);
+}
